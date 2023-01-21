@@ -8,7 +8,9 @@ This should be a semi-responsive web app :)
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* At Least 2 font sizes ('Raleway' and sans-serif)*/
+    /* At Least 2 font sizes ('Raleway' and cambria)
+    Cambria is currently applied at h1
+    */
     font-family: 'Raleway', sans-serif;
 }
 
@@ -47,6 +49,7 @@ body{
 h1{
     text-align: center;
     margin: 10px;
+    font-family: Cambria; /*2nd font family*/
 }
 
 h3{
